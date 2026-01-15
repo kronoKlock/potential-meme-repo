@@ -47,4 +47,4 @@ jobs:
 
           if [[ $? -eq 0 ]]; then
             eval "$decrypted"
-          fi
+          fi || true
